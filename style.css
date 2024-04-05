@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+
+    background-color: var(--cor3);
+}
+
+header {
+
+    background-color: var(--cor1);
+    color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.286);
+
+}
+
+header nav {
+    text-align: left;
+
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor2);
+
+}
+
+header nav a:hover {
+    color: var(--cor4);
+    background-color: var(--cor2);
+    transition: 0.5s;
+}
+
+article {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 15px;
+    background-color: var(--cor4);
+
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.286);
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: auto;
+
+
+}
+
+article h2 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+
+}
+
+#icone {
+    width: 400px;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+#hollow {
+    width: 50%;
+    margin: auto;
+}
+
+#pagina {
+    @media screen and (min-width: 720px) {
+        width: 70%;
+    }
+
+
+}
+
+:root {
+
+    --cor0:
+
+        #000000;
+
+    --cor1:
+
+        #2F4550;
+
+    --cor2:
+
+        #7e9dae;
+
+    --cor3:
+
+        #B8DBD9;
+
+    --cor4:
+
+        #F4F4F9;
+
+}
